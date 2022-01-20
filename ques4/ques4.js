@@ -1,6 +1,9 @@
+// =================================================================================================================
+// Answer:
 // The error is in Line:  server_echo = response.json().echo;
 // response.json() will return a promise.. so we cant access response.json().echo
 // thus server_echo will be undefined and foreach wont work
+// =================================================================================================================
 
 var server_echo;
 var json = {

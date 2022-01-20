@@ -1,7 +1,10 @@
+// ==================================================================================================================
+// Answer:
 // The bug I could find is while setting a variable at local storage
 // Line: window.localStorage.setItem('tenantId', response.data.tenantId);
 // We should make sure that response.data.tenantId is a string
 
+// =================================================================================================================
 // const useAuthProvide = () => {
 //     const [tenantId, setTenantId] = useState(
 //       window.localStorage.getItem('tenantId'),
